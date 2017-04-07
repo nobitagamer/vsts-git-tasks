@@ -1,16 +1,16 @@
 # Git Tasks
 
-Visual Studio Team Services Build and Release Management extension that helps you synchronise one Git Repository with another. 
+Visual Studio Team Services Build and Release Management extension that helps you mirror one Git Repository with another. 
 
-Get the [Git Sync Management](https://marketplace.visualstudio.com/items?itemName=nkdagility.gittasks) extensions for VSTS from the Marketplace.
+Get the [Git Mirror](https://marketplace.visualstudio.com/items?itemName=vso.git-mirror) extensions for VSTS from the Marketplace.
 
 ##Tasks included
 
-- **Git Publish Task** - Publish your Branches & Tags to an external Git Repository. Support any Git repo accessable with a URL.
-- **I want more** - Feel free to request on [GitHub](https://github.com/nkdAgility/vsts-git-tasks) or submit a pull request
+- **Git Mirror Task** - Mirror your Branches & Tags to an external Git Repository. Support any Git repo accessable with a URL.
+- **I want more** - Feel free to request on [GitHub](https://github.com/nobitagamer/vso-git-mirror.git) or submit a pull request
 
 ##Steps
 
 After installing the extension, you can add one (or more) of the tasks to a new or existing build definition or release definition
 
-Full documentation is available on [http://vsts-git-tasks.readthedocs.io](http://vsts-git-tasks.readthedocs.io)
+Full documentation is available on [http://vso-git-mirror.readthedocs.io](http://vso-git-mirror.readthedocs.io)

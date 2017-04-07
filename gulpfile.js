@@ -59,7 +59,7 @@ gulp.task('package', ['build'], function() {
     
     switch (options.stage) {
         case 'dev':
-            options.taskId = '0664FF86-F509-4392-A33C-B2D9239B9AE5';
+            options.taskId = '21B91146-FC2D-41D3-A4BD-E4EA43CF6DAF';
             options.public = false;
             options.private = false;
             break;

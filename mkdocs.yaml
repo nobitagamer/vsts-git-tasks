@@ -1,4 +1,4 @@
-site_name: Git Sync Tasks
+site_name: Git Mirror Tasks
 pages:
 - Home: index.md
 theme: readthedocs

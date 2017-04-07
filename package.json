@@ -1,33 +1,39 @@
 {
-  "name": "nkdAgility.vsts-git-tasks",
+  "name": "vso.git-mirror",
   "version": "#{GitVersion.Major}#.#{GitVersion.Minor}#.#{GitVersion.Patch}#",
-  "description": "Build and release tasks for passing build veriables to a release. ",
-  "author": "Martin Hinshelwood",
+  "description": "Mirror a Git repository to another.",
+  "author": "Nguyen Khac Trieu",
   "license": "MIT",
-  "homepage": "https://github.com/nkdAgility/vsts-git-tasks#readme",
+  "homepage": "https://github.com/nobitagamer/vso-git-mirror#readme",
   "bugs": {
-    "url": "https://github.com/nkdAgility/vsts-git-tasks/issues"
+    "url": "https://github.com/nobitagamer/vso-git-mirror/issues"
   },
   "keywords": [
-     "release",
-     "build",
-     "git",
-        "sync",
-        "synchronisation",
-        "GitHub"
+    "release",
+    "build",
+    "git",
+    "mirror",
+	"backup"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nkdAgility/vsts-git-tasks.git"
+    "url": "git+https://github.com/nobitagamer/vso-git-mirror.git"
   },
   "devDependencies": {
-    "del": "^2.0.0",
+    "del": "^2.2.2",
     "gulp": "^3.9.1",
-    "gulp-debug": "^2.1.2",
-    "gulp-util": "^3.0.0",
-    "merge-stream": "^1.0.0",
-    "shelljs": "^0.3.0",
-    "minimist": "1.1.1",
-    "semver": "4.3.3"
+    "gulp-debug": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "merge-stream": "^1.0.1",
+    "shelljs": "^0.7.7",
+    "minimist": "1.2.0",
+    "semver": "5.3.0"
+  },
+  "scripts": {
+    "install": "npm prune",
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "pack": "gulp package",
+    "update": "ncu -a"
   }
 }
