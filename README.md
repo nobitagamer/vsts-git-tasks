@@ -2,7 +2,7 @@
 
 Visual Studio Team Services Build and Release Management extension that helps you mirror one Git Repository with another. 
 
-Get the [Git Mirror](https://marketplace.visualstudio.com/items?itemName=vso.git-mirror) extensions for VSTS from the Marketplace.
+Get the [Git Mirror](https://marketplace.visualstudio.com/items?itemName=nobitagamer.gitmirror) extensions for VSTS from the Marketplace.
 
 ##Tasks included
 

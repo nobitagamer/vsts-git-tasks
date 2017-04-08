@@ -1,6 +1,8 @@
 assembly-versioning-scheme: MajorMinorPatch
 mode: ContinuousDeployment
 continuous-delivery-fallback-tag: ''
+minor-version-bump-message: '^feat:'
+patch-version-bump-message: '^fix:'
 branches:
   master:
     mode: ContinuousDeployment

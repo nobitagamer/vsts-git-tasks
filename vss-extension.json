@@ -1,7 +1,7 @@
 {
     "id": "gitmirror#{GitVersion.PreReleaseLabel}#",
     "manifestVersion": 1,
-    "name": "Git Tasks #{GitVersion.PreReleaseLabel}#",
+    "name": "Git Mirror #{GitVersion.PreReleaseLabel}#",
     "version": "#{GitVersion.Major}#.#{GitVersion.Minor}#.#{GitVersion.Patch}#",
     "public": false,
     "publisher": "nobitagamer",
@@ -13,7 +13,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],    
-    "description": "Do you need to interact with Git? Do you want to OpenSource your VSTS Git Repo, or just mirror your VSTS Git repo with another? These build and release tasks will help you manage this.",
+    "description": "This task help you mirror your VSTS Git repository with another.",
     "categories": [
         "Build and release"
     ],
