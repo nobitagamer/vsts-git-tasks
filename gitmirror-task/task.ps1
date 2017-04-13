@@ -19,15 +19,13 @@ try {
 	## Push stuff
 	Write-VstsTaskVerbose ">>it push mirror --progress --prune +refs/remotes/origin/*:refs/heads/* +refs/tags/*:refs/tags/*"
 	git push mirror --progress --prune +refs/remotes/origin/*:refs/heads/* +refs/tags/*:refs/tags/*
-	if ($?) {
+	if (!$?) {
 		throw
 	}
-catch
-{
+} catch {
 	# Catching reliability issues and logging them here.
 	Write-Host "##vso[task.logissue type=error;code=" $_.Exception.Message ";TaskName=gitmirror]"
 	throw
-}
 } finally {
     Trace-VstsLeavingInvocation $MyInvocation
 }
