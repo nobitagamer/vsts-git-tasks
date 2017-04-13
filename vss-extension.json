@@ -3,7 +3,7 @@
     "manifestVersion": 1,
     "name": "Git Mirror #{GitVersion.PreReleaseLabel}#",
     "version": "#{GitVersion.Major}#.#{GitVersion.Minor}#.#{GitVersion.Patch}#",
-    "public": false,
+    "public": true,
     "publisher": "nobitagamer",
     "galleryFlags": [
         "#{Extension.galleryFlags}#"

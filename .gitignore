@@ -331,3 +331,4 @@ localpackages/
 *.vsix
 _build/
 _packages/
+ps_modules

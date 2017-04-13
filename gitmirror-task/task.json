@@ -15,7 +15,7 @@
         "Minor": #{GitVersion.Minor}#,
         "Patch": #{GitVersion.Patch}#
     },
-    "minimumAgentVersion": "1.92.0",
+    "minimumAgentVersion": "1.95.0",
     "inputs": [
         {
             "name": "GitRepoUrl",
@@ -28,7 +28,7 @@
     "instanceNameFormat": "Git mirror to $(GitRepoUrl)",
     "execution": {
         "PowerShell3": {
-            "target": "$(currentDirectory)\\gitmirror.ps1",
+            "target": "$(currentDirectory)\\task.ps1",
             "argumentFormat": "",
             "workingDirectory": "$(Build.SourcesDirectory)"
         }
