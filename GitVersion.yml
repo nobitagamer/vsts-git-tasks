@@ -1,13 +1,15 @@
 assembly-versioning-scheme: MajorMinorPatch
 mode: ContinuousDeployment
 continuous-delivery-fallback-tag: ''
-minor-version-bump-message: '^feat:'
-patch-version-bump-message: '^fix:'
+minor-version-bump-message: '^feat:\s'
+patch-version-bump-message: '^fix:\s'
 branches:
   master:
     mode: ContinuousDeployment
     tag: ''
-  ((?!master).):
-     tag: 'Preview'
+  dev(elop)?(ment)?$:
+    mode: ContinuousDeployment
+    tag: preview
+    increment: Inherit
 ignore:
   sha: []
