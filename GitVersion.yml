@@ -9,7 +9,6 @@ branches:
     tag: ''
   dev(elop)?(ment)?$:
     mode: ContinuousDeployment
-    tag: preview
-    increment: Inherit
+    tag: ''
 ignore:
   sha: []
