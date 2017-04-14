@@ -11,6 +11,8 @@ Get the [Git Mirror](https://marketplace.visualstudio.com/items?itemName=nobitag
 
 ##Steps
 
-After installing the extension, you can add one (or more) of the tasks to a new or existing build definition or release definition
+After installing the extension, you can add one (or more) of the tasks to a new or existing build definition or release definition.
+
+**_You MUST use a Personal Access Token (PAT) with write permission on your target repository to push code._**
 
 Full documentation is available on [http://vso-git-mirror.readthedocs.io](http://vso-git-mirror.readthedocs.io)

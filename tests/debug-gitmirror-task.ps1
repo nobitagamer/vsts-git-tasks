@@ -1,7 +1,7 @@
 ﻿# Save-Module -Name VstsTaskSdk -Path .\ps_modules\
 Save-Module -Name posh-git -Path .\ps_modules\
 
-Install-Module posh-git -Verbose -Scope CurrentUser
+# Install-Module posh-git -Verbose -Scope CurrentUser
 
 # Import-Module .\ps_modules\VstsTaskSdk
 Import-Module .\ps_modules\posh-git

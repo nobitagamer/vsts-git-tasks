@@ -2,7 +2,7 @@
     "id": "gitmirror#{GitVersion.PreReleaseLabel}#",
     "manifestVersion": 1,
     "name": "Git Mirror #{GitVersion.PreReleaseLabel}#",
-    "version": "#{GitVersion.Major}#.#{GitVersion.Minor}#.#{GitVersion.Patch}#",
+    "version": "#{GitVersion.Major}#.#{GitVersion.Minor}#.#{GitVersion.CommitsSinceVersionSource}#",
     "public": true,
     "publisher": "nobitagamer",
     "galleryFlags": [
