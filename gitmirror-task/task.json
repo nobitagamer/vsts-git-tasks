@@ -13,7 +13,7 @@
     "version": {
         "Major": #{GitVersion.Major}#,
         "Minor": #{GitVersion.Minor}#,
-        "Patch": #{GitVersion.Patch}#
+        "Patch": #{GitVersion.CommitsSinceVersionSource}#
     },
     "minimumAgentVersion": "1.95.0",
     "inputs": [
