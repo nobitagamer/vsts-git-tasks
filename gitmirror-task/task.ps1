@@ -15,6 +15,9 @@ try {
 	### Add fetch URL
 	Write-VstsTaskVerbose ">>git remote add --mirror=fetch mirror $GitRepoUrl"
 	git remote add --mirror=fetch mirror $GitRepoUrl
+    if (!$?) {
+		git remote set-url --push mirror $GitRepoUrl
+	}
 
 	## Push stuff
 	Write-VstsTaskVerbose ">>it push mirror --progress --prune +refs/remotes/origin/*:refs/heads/* +refs/tags/*:refs/tags/*"
