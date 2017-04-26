@@ -16,6 +16,7 @@ try {
 	Write-VstsTaskVerbose ">>git remote add --mirror=fetch mirror $GitRepoUrl"
 	git remote add --mirror=fetch mirror $GitRepoUrl
     if (!$?) {
+		git remote set-url mirror $GitRepoUrl
 		git remote set-url --push mirror $GitRepoUrl
 	}
 
