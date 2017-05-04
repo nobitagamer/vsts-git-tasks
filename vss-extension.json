@@ -8,30 +8,28 @@
     "galleryFlags": [
         "#{Extension.galleryFlags}#"
     ],
-    "targets": [
-        {
-            "id": "Microsoft.VisualStudio.Services"
-        }
-    ],    
+    "targets": [{
+        "id": "Microsoft.VisualStudio.Services"
+    }],
     "description": "This task help you mirror your VSTS Git repository with another.",
     "categories": [
         "Build and release"
     ],
     "tags": [
-		"release",
-		"build",
-		"git",
-		"mirror",
-		"GitHub",
-		"Git Push",
-		"Branch"
+        "release",
+        "build",
+        "git",
+        "mirror",
+        "GitHub",
+        "Git Push",
+        "Branch"
     ],
     "links": {
         "learn": {
             "uri": "http://vso-git-mirror.readthedocs.io"
         },
         "support": {
-            "uri": "https://github.com/nobitagamer/vso-git-mirror.git/issues"  
+            "uri": "https://github.com/nobitagamer/vso-git-mirror.git/issues"
         }
     },
     "icons": {
@@ -41,11 +39,9 @@
         "color": "#1C3272",
         "theme": "dark"
     },
-    "screenshots": [
-        {
-            "path": "images/screenshot-01.png"
-        }
-    ],
+    "screenshots": [{
+        "path": "images/screenshot-01.png"
+    }],
     "content": {
         "details": {
             "path": "README.md"
@@ -54,22 +50,19 @@
             "path": "LICENSE.txt"
         }
     },
-    "files": [
-        {
+    "files": [{
             "path": "gitmirror-task"
         }
 
     ],
-    "contributions": [
-        {
-            "id": "gitmirror-task",
-            "type": "ms.vss-distributed-task.task",
-            "targets": [
-                "ms.vss-distributed-task.tasks"
-            ],
-            "properties": {
-                "name": "gitmirror-task"
-            }
+    "contributions": [{
+        "id": "gitmirror-task",
+        "type": "ms.vss-distributed-task.task",
+        "targets": [
+            "ms.vss-distributed-task.tasks"
+        ],
+        "properties": {
+            "name": "gitmirror-task"
         }
-    ]
+    }]
 }
