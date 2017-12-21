@@ -17,7 +17,7 @@ try {
 	git remote add --mirror=fetch mirror $GitRepoUrl
 
 	## Push stuff
-	Write-VstsTaskVerbose ">>it push mirror --progress --prune +refs/remotes/origin/*:refs/heads/* +refs/tags/*:refs/tags/*"
+	Write-VstsTaskVerbose ">>git push mirror --progress --prune +refs/remotes/origin/*:refs/heads/* +refs/tags/*:refs/tags/*"
 	git push mirror --progress --prune +refs/remotes/origin/*:refs/heads/* +refs/tags/*:refs/tags/*
 	if ($?) {
 		throw
